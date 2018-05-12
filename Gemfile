@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Fake data
 gem 'faker'
+
+# Cross-origin requests
+gem 'rack-cors', :require => 'rack/cors'
